@@ -1,4 +1,4 @@
-import 'package:buttons/Button_Designs/new.dart';
+
 import 'package:flutter/material.dart';
 
 import 'Button_Designs/flat_btn.dart';
@@ -14,11 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
       primarySwatch: Colors.blue,
       ),
-      home: const Buttons(),
+      home: const Button(),
      
     );
     
